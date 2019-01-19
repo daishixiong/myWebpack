@@ -1,0 +1,17 @@
+@include b(table) {
+    @include m(border) {
+        th:not(:last-child), td:not(:last-child) {
+        }
+    }
+    @include m(small) {
+        font-size: 14px;
+    }
+    th, td {
+        line-height: 23px;
+    }
+    @include e((fixed, fixed-right)) {
+        &::before {
+            background: none;
+        }
+    }
+}

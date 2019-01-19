@@ -1,0 +1,69 @@
+$--color-primary: #2aa6ff;
+
+$--color-success: #7ed321;
+$--color-warning: #ff9000;
+$--color-danger: #ff3000;
+$--color-info: #969ba1;
+
+$--color-text-primary: #000;
+$--color-text-regular: #333;
+$--color-text-secondary: #666;
+$--color-text-placeholder: #999;
+
+$--color-white: #fff;
+
+$--border-color-base: #dcdee3;
+$--border-color-lighter: #eee;
+$--border-color-hover: #c0c4cc;
+$--background-color-base: #f2f3f7;
+$--border-radius-base: 2px;
+$--button-border-radius: 4px;
+
+$--table-header-background: #f2f3f7;
+$--table-border-color: $--border-color-base;
+$--table-row-hover-background: mix($--color-white, $--color-primary, 90%);
+
+$--button-small-border-radius: 2px;
+$--button-small-font-size: 14px;
+$--button-small-padding-vertical: 8px;
+$--button-small-padding-horizontal: 20px;
+
+$--button-mini-border-radius: 2px;
+$--button-mini-font-size: 12px;
+$--button-mini-padding-vertical: 7px;
+$--button-mini-padding-horizontal: 10px;
+
+$--font-size-base: 14px;
+$--font-size-small: 12px;
+$--font-size-large: 16px;
+$--font-size-bigger: 20px;
+$--font-size-huge: 22px;
+$--dialog-title-font-size: 16px;
+$--dialog-padding-primary: 15px;
+
+$--select-font-size: 14px;
+$--select-input-font-size: 14px;
+
+$--checkbox-font-weight: 400;
+$--radio-font-weight: 400;
+$--radio-font-size: 14px;
+
+$--menu-height: 32px;
+$--pagination-font-size: 14px;
+
+$--input-small-font-size: 14px;
+$--input-mini-font-size: 14px;
+$--input-mini-height: 28px;
+
+$--main-padding: 20px 30px;
+
+$--msgbox-padding-primary: 15px;
+$--msgbox-font-size: 16px;
+
+$--font-path: '../font';
+
+//$--font-path: '../../../node_modules/element-ui/lib/theme-chalk/fonts';
+
+@import "../../../node_modules/element-ui/packages/theme-chalk/src/index";
+@import "../../common/element-ui/theme/index";
+@import "./font";

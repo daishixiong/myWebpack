@@ -1,0 +1,17 @@
+@include b(breadcrumb) {
+    font-size: $--font-size-base;
+    margin-bottom: 20px;
+    @include e(item) {
+        @include e(inner) {
+            &.is-link, & a {
+                font-weight: 400;
+                color: $--color-text-regular;
+            }
+        }
+        &:last-child {
+            @include e(inner) {
+                color: #999 !important;
+            }
+        }
+    }
+}

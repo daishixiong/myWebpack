@@ -1,0 +1,6 @@
+
+@include b(button) {
+    @include m(text) {
+        padding: 0;
+    }
+}

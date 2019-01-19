@@ -1,0 +1,13 @@
+@color-primary: #2aa6ff;
+@group-block-color: #2aa6ff;
+@label-gray-color: #777;
+
+/**
+ * 修改webpack的styleLoaders配置，添加less的paths配置，使其能从给定的目录中查找theme.less文件，示例如下：
+ * less: generateLoaders('less', {
+ *    paths: [
+ *       path.resolve(__dirname, '../src')
+ *    ]
+ * })
+ */
+@import (optional) "theme.less";
