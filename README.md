@@ -1,6 +1,6 @@
-# fe-zl-report-pc
+# my-webpack
 
-> 子龙医院报表中心
+> vue + webpack + element-ui模版
 
 ## Build Setup
 
